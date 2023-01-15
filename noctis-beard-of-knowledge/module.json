@@ -1,88 +1,73 @@
 {
-    "name": "noctis-beard-of-knowledge",
-    "title": "Nocti's Beard of Knowledge",
-    "author": "NoctiBeard",
-    "description": "Contains an assortment of modules, conversion, entries, monsters, and more!",
-    "packs": [
-        {
-            "name": "actors",
-            "label": "Actors",
-            "type": "Actor",
-            "system": "dnd5e",
-            "path": "packs/actors.db",
-            "entity": "Actor",
-            "module": "noctis-beard-of-knowledge"
-        },
-        {
-            "name": "items-weapons-etc",
-            "label": "Items, Weapons, etc",
-            "type": "Item",
-            "system": "dnd5e",
-            "path": "packs/items-weapons-etc.db",
-            "entity": "Item",
-            "module": "noctis-beard-of-knowledge"
-        },
-         {
-            "name": "classes",
-            "label": "Classes & Subclasses",
-            "type": "Item",
-            "system": "dnd5e",
-            "path": "packs/classes.db",
-            "entity": "Item",
-            "module": "noctis-beard-of-knowledge"
-        },
-        {
-            "name": "journal",
-            "label": "Journal",
-            "type": "JournalEntry",
-            "path": "packs/journal.db",
-            "entity": "JournalEntry",
-            "module": "noctis-beard-of-knowledge"
-        },
-        {
-            "name": "macros",
-            "label": "Macros",
-            "type": "Macro",
-            "path": "packs/macros.db",
-            "entity": "Macro",
-            "module": "noctis-beard-of-knowledge"
-        },
-        {
-            "name": "adventure-music",
-            "label": "Adventure Music",
-            "type": "Playlist",
-            "path": "packs/adventure-music.db",
-            "entity": "Playlist",
-            "module": "noctis-beard-of-knowledge"
-        },
-        {
-            "name": "rolling-tables",
-            "label": "Rolling Tables",
-            "type": "RollTable",
-            "path": "packs/rolling-tables.db",
-            "entity": "RollTable",
-            "module": "noctis-beard-of-knowledge"
-        },
-        {
-            "name": "scenes",
-            "label": "Scenes",
-            "type": "Scene",
-            "path": "packs/scenes.db",
-            "entity": "Scene",
-            "module": "noctis-beard-of-knowledge"
-        }
-    ],
-    "id": "noctis-beard-of-knowledge",
-    "authors": [
-        {
-            "name": "NoctiBeard"
-        }
-    ],
-    "minimumCoreVersion": "0.8.0",
-    "compatibleCoreVersion": "9",
-    "compatibility": {
-        "minimum": 9,
-        "verified": 10
-    },
-    "version": "1.1"
+	"name": "noctis-beard-of-knowledge",
+	"title": "Nocti's Beard of Knowledge",
+	"description": "A module that adds additional homebrewed content for your dnd5e games. Classes, subclasses, races, feats, spells, items, you know it! Works even better when paired with Magic Items, Better Rolls and Dynamic Effects modules!",
+	"author": "NoctiBeard",
+	"version": "1.0.0",
+	"minimumCoreVersion": "0.6.2",
+	"compatibleCoreVersion": "0.8.8",
+	"url": "https://github.com/NoctiBeard/NoctiBeards-DnD-Compendium/tree/main/noctis-beard-of-knowledge",
+	"download": "https://github.com/NoctiBeard/NoctiBeards-DnD-Compendium/archive/main.zip",
+	"system": "dnd5e",
+	"manifest": "https://raw.githubusercontent.com/NoctiBeard/NoctiBeards-DnD-Compendium/master/noctis-beard-of-knowledge/module.json",
+	"readme": "https://github.com/NoctiBeard/NoctiBeards-DnD-Compendium/blob/main/README.md",
+	"packs": [
+		{
+			"name": "items",
+			"label": "Items",
+			"system": "dnd5e",
+			"path": "packs/items.db",
+			"entity": "Item"
+		},
+		{
+			"name": "spells",
+			"label": "Spells",
+			"system": "dnd5e",
+			"path": "packs/spells.db",
+			"entity": "Item"
+		},
+		{
+			"name": "tables",
+			"label": "Tables",
+			"system": "dnd5e",
+			"path": "packs/tables.db",
+			"entity": "RollTable"
+		},
+		{
+			"name": "conditions",
+			"label": "Conditions",
+			"system": "dnd5e",
+			"path": "packs/conditions.db",
+			"entity": "JournalEntry"
+		},
+		{
+			"name": "feats",
+			"label": "Feats",
+			"system": "dnd5e",
+			"path": "packs/feats.db",
+			"entity": "Item"
+		},
+		{
+			"name": "classes",
+			"label": "Classes",
+			"system": "dnd5e",
+			"path": "packs/classes.db",
+			"entity": "Item"
+		},
+		{
+			"name": "class-features",
+			"label": "Class Features",
+			"system": "dnd5e",
+			"path": "packs/class-features.db",
+			"entity": "Item"
+		},
+		{
+			"name": "races",
+			"label": "Races",
+			"system": "dnd5e",
+			"path": "packs/races.db",
+			"entity": "Item"
+		}
+	]
 }
+
