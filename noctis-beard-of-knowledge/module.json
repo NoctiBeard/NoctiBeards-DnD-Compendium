@@ -5,7 +5,7 @@
 	"author": "NoctiBeard",
 	"version": "1.0.0",
 	"minimumCoreVersion": "0.6.2",
-	"compatibleCoreVersion": "0.8.8",
+	"compatibleCoreVersion": "10",
 	"url": "https://github.com/NoctiBeard/NoctiBeards-DnD-Compendium/tree/main/noctis-beard-of-knowledge",
 	"download": "https://github.com/NoctiBeard/NoctiBeards-DnD-Compendium/archive/main.zip",
 	"system": "dnd5e",
