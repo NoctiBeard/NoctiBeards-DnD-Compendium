@@ -22,6 +22,15 @@
             "entity": "Item",
             "module": "noctis-beard-of-knowledge"
         },
+         {
+            "name": "classes",
+            "label": "Classes & Subclasses",
+            "type": "Item",
+            "system": "dnd5e",
+            "path": "packs/classes.db",
+            "entity": "Item",
+            "module": "noctis-beard-of-knowledge"
+        },
         {
             "name": "journal",
             "label": "Journal",
