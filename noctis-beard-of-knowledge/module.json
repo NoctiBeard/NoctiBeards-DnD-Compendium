@@ -9,7 +9,7 @@
 	"url": "https://github.com/NoctiBeard/NoctiBeards-DnD-Compendium/tree/main/noctis-beard-of-knowledge",
 	"download": "https://github.com/NoctiBeard/NoctiBeards-DnD-Compendium/archive/main.zip",
 	"system": "dnd5e",
-	"manifest": "https://raw.githubusercontent.com/NoctiBeard/NoctiBeards-DnD-Compendium/master/noctis-beard-of-knowledge/module.json",
+	"manifest": "https://raw.githubusercontent.com/NoctiBeard/NoctiBeards-DnD-Compendium/main/noctis-beard-of-knowledge/module.json",
 	"readme": "https://github.com/NoctiBeard/NoctiBeards-DnD-Compendium/blob/main/README.md",
 	"packs": [
 		{
