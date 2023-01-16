@@ -15,58 +15,74 @@
 		{
 			"name": "items",
 			"label": "Items",
+			"type": "Item",
 			"system": "dnd5e",
 			"path": "packs/items.db",
 			"entity": "Item"
+			"module": "noctis-beard-of-knowledge"
 		},
 		{
 			"name": "spells",
 			"label": "Spells",
+			"type": "Item",
 			"system": "dnd5e",
 			"path": "packs/spells.db",
 			"entity": "Item"
+			"module": "noctis-beard-of-knowledge"
 		},
 		{
 			"name": "tables",
 			"label": "Tables",
+			"type": "RollTable",
 			"system": "dnd5e",
 			"path": "packs/tables.db",
 			"entity": "RollTable"
+			"module": "noctis-beard-of-knowledge"
 		},
 		{
 			"name": "conditions",
 			"label": "Conditions",
+			"type": "JournalEntry",
 			"system": "dnd5e",
 			"path": "packs/conditions.db",
 			"entity": "JournalEntry"
+			"module": "noctis-beard-of-knowledge"
 		},
 		{
 			"name": "feats",
 			"label": "Feats",
+			"type": "Item",
 			"system": "dnd5e",
 			"path": "packs/feats.db",
 			"entity": "Item"
+			"module": "noctis-beard-of-knowledge"
 		},
 		{
 			"name": "classes",
 			"label": "Classes",
+			"type": "Item",
 			"system": "dnd5e",
 			"path": "packs/classes.db",
 			"entity": "Item"
+			"module": "noctis-beard-of-knowledge"
 		},
 		{
 			"name": "class-features",
 			"label": "Class Features",
+			"type": "Item",
 			"system": "dnd5e",
 			"path": "packs/class-features.db",
 			"entity": "Item"
+			"module": "noctis-beard-of-knowledge"
 		},
 		{
 			"name": "races",
 			"label": "Races",
+			"type": "Item",
 			"system": "dnd5e",
 			"path": "packs/races.db",
 			"entity": "Item"
+			"module": "noctis-beard-of-knowledge"
 		}
 	]
 }
