@@ -19,7 +19,6 @@
 			"system": "dnd5e",
 			"path": "packs/items.db",
 			"entity": "Item"
-			"module": "noctis-beard-of-knowledge"
 		},
 		{
 			"name": "spells",
@@ -28,7 +27,6 @@
 			"system": "dnd5e",
 			"path": "packs/spells.db",
 			"entity": "Item"
-			"module": "noctis-beard-of-knowledge"
 		},
 		{
 			"name": "tables",
@@ -37,7 +35,6 @@
 			"system": "dnd5e",
 			"path": "packs/tables.db",
 			"entity": "RollTable"
-			"module": "noctis-beard-of-knowledge"
 		},
 		{
 			"name": "conditions",
@@ -46,7 +43,6 @@
 			"system": "dnd5e",
 			"path": "packs/conditions.db",
 			"entity": "JournalEntry"
-			"module": "noctis-beard-of-knowledge"
 		},
 		{
 			"name": "feats",
@@ -55,7 +51,6 @@
 			"system": "dnd5e",
 			"path": "packs/feats.db",
 			"entity": "Item"
-			"module": "noctis-beard-of-knowledge"
 		},
 		{
 			"name": "classes",
@@ -64,7 +59,6 @@
 			"system": "dnd5e",
 			"path": "packs/classes.db",
 			"entity": "Item"
-			"module": "noctis-beard-of-knowledge"
 		},
 		{
 			"name": "class-features",
@@ -73,7 +67,6 @@
 			"system": "dnd5e",
 			"path": "packs/class-features.db",
 			"entity": "Item"
-			"module": "noctis-beard-of-knowledge"
 		},
 		{
 			"name": "races",
@@ -82,7 +75,6 @@
 			"system": "dnd5e",
 			"path": "packs/races.db",
 			"entity": "Item"
-			"module": "noctis-beard-of-knowledge"
 		}
 	]
 }
