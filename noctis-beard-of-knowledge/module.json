@@ -1,0 +1,140 @@
+{
+  "title": "Nocti's Beard of Knowledge",
+  "description": "A module that adds additional homebrewed content for your dnd5e games. Classes, subclasses, races, feats, spells, items, you know it! Works even better when paired with Magic Items, Better Rolls and Dynamic Effects modules!",
+  "version": "1.0.0",
+  "url": "https://github.com/NoctiBeard/NoctiBeards-DnD-Compendium/tree/main/noctis-beard-of-knowledge",
+  "download": "https://github.com/NoctiBeard/NoctiBeards-DnD-Compendium/archive/main.zip",
+  "manifest": "https://raw.githubusercontent.com/NoctiBeard/NoctiBeards-DnD-Compendium/main/noctis-beard-of-knowledge/module.json",
+  "readme": "https://github.com/NoctiBeard/NoctiBeards-DnD-Compendium/blob/main/README.md",
+  "packs": [
+    {
+      "name": "items",
+      "label": "Items",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "packs/items.db",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "packs/spells.db",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "monsters",
+      "label": "Monsters",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "packs/monsters.db",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "tables",
+      "label": "Tables",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "path": "packs/tables.db",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "conditions",
+      "label": "Conditions",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "path": "packs/conditions.db",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "feats",
+      "label": "Feats",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "packs/feats.db",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "backgrounds",
+      "label": "Backgrounds",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "packs/backgrounds.db",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "classes",
+      "label": "Classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "packs/classes.db",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "subclasses",
+      "label": "Subclasses",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "packs/subclasses.db",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "class-features",
+      "label": "Class Features",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "packs/class-features.db",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "racial-traits",
+      "label": "Racial Traist",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "packs/racial-traits.db",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "races",
+      "label": "Races",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "packs/races.db",
+      "private": false,
+      "flags": {}
+    }
+
+  ],
+  "id": "noctis-beard-of-knowledge",
+  "authors": [
+    {
+      "name": "NoctiBeard",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "0.6.2",
+    "verified": "10"
+  }
+}
